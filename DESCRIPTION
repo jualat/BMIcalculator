@@ -9,4 +9,4 @@ Authors@R: c(
 Description: Provides functions to calculate BMI, convert units, and interpret BMI values.
 Encoding: UTF-8
 LazyData: true
-
+RoxygenNote: 7.2.3
