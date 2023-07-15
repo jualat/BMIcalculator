@@ -14,7 +14,7 @@ convertLbs <- function(weight_lbs) {
 
   lbs_to_kg <- 0.453592
   weight_kg <- weight_lbs * lbs_to_kg
-  return(weight_kg = weight_kg)
+  return(weight_kg)
 }
 
 
@@ -34,5 +34,5 @@ convertInch <- function(height_in) {
 
   in_to_m <- 0.0254
   height_m <- height_in * in_to_m
-  return(height_m = height_m)
+  return(height_m)
 }
