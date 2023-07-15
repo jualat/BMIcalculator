@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(mapVisualization)
+library(BMIcalculator)
 
-test_check("mapVisualization")
+test_check("BMIcalculator")
