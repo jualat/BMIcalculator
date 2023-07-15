@@ -3,9 +3,10 @@
 #' This function provides a verbal interpretation of the BMI value.
 #'
 #' @param bmi Numeric. The BMI to interpret.
+#' @param age Numeric. The age of the person which belongs to the bmi.
 #' @return The interpretation of the BMI as a string.
 #' @examples
-#' interpret(22)
+#' interpret(22,20)
 #' @export
 interpret <- function(bmi, age) {
 
