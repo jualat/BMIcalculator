@@ -1,13 +1,38 @@
-convert <- function(weight_lbs, height_in) {
-  if(!is.numeric(weight_lbs) | !is.numeric(height_in)) {
-    stop("Both weight and height must be numeric.")
+#' Convert lbs to kg
+#'
+#' This function converts weight from lbs to kg.
+#'
+#' @param weight_lbs Numeric. Weight in lbs.
+#' @return The weight in kilograms.
+#' @examples
+#' convertLbs(154.32)
+#' @export
+convertLbs <- function(weight_lbs) {
+  if (!is.numeric(weight_lbs)) {
+    stop("Weight must be numeric.")
   }
 
   lbs_to_kg <- 0.453592
-  in_to_m <- 0.0254
-
   weight_kg <- weight_lbs * lbs_to_kg
-  height_m <- height_in * in_to_m
+  return(weight_kg = weight_kg)
+}
 
-  return(list(weight_kg = weight_kg, height_m = height_m))
+
+#' Convert inches to meters
+#'
+#' This function converts height from inches to meters.
+#'
+#' @param height_in Numeric. Height in inches.
+#' @return The height in meters.
+#' @examples
+#' convertInch(68.11)
+#' @export
+convertInch <- function(height_in) {
+  if (!is.numeric(height_in)) {
+    stop("Height must be numeric.")
+  }
+
+  in_to_m <- 0.0254
+  height_m <- height_in * in_to_m
+  return(height_m = height_m)
 }

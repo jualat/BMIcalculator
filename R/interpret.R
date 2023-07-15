@@ -1,3 +1,12 @@
+#' Interpret BMI
+#'
+#' This function provides a verbal interpretation of the BMI value.
+#'
+#' @param bmi Numeric. The BMI to interpret.
+#' @return The interpretation of the BMI as a string.
+#' @examples
+#' interpret(22)
+#' @export
 interpret <- function(bmi) {
 
   if(!is.numeric(bmi)) {
