@@ -4,10 +4,12 @@
 \alias{interpret}
 \title{Interpret BMI}
 \usage{
-interpret(bmi)
+interpret(bmi, age)
 }
 \arguments{
 \item{bmi}{Numeric. The BMI to interpret.}
+
+\item{age}{Numeric. The age of the person which belongs to the bmi.}
 }
 \value{
 The interpretation of the BMI as a string.
@@ -16,5 +18,5 @@ The interpretation of the BMI as a string.
 This function provides a verbal interpretation of the BMI value.
 }
 \examples{
-interpret(22)
+interpret(22,20)
 }
