@@ -51,4 +51,14 @@ convertLBS(weight_lbs)
 The input has to be numeric. The output is calculated with 0.453592*weight_lbs.
 
 ## Documentation
-There is a full documentation created by roxygen2.
+There is a full documentation created with roxygen2. 
+
+## Build
+There are some tests given (testthat).
+
+To build and test this package, use
+```{r, eval = FALSE}
+devtools::document()
+devtools::install()
+```
+in R console.

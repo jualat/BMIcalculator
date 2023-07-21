@@ -58,4 +58,17 @@ The input has to be numeric. The output is calculated with
 
 ## Documentation
 
-There is a full documentation created by roxygen2.
+There is a full documentation created with roxygen2.
+
+## Build
+
+There are some tests given (testthat).
+
+To build and test this package, use
+
+``` r
+devtools::document()
+devtools::install()
+```
+
+in R console.
