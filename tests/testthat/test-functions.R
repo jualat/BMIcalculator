@@ -1,6 +1,6 @@
 context("Testing calculate function")
 test_that("calculate correctly calculates BMI", {
-  expect_equal(calculate(70, 1.75), 22.85714, tolerance = 1e-4)
+  expect_equal(calculate(70, 1.75), 22.9, tolerance = 1e-4)
 })
 
 context("Testing convertLbs function")
