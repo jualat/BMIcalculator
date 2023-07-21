@@ -18,5 +18,5 @@ The calculated BMI (numeric).
 This function calculates the BMI given weight in kg and height in meters.
 }
 \examples{
-calculate(70, 1.75)
+calculate(70, 1.80)
 }

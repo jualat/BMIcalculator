@@ -16,5 +16,5 @@ The weight in kilograms (Numeric).
 This function converts weights from lbs to kg.
 }
 \examples{
-convertLbs(154.32)
+convertLbs(150)
 }

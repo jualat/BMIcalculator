@@ -16,5 +16,5 @@ The height in meters.
 This function converts height from inches to meters.
 }
 \examples{
-convertInch(68.11)
+convertInch(70)
 }
