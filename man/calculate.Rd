@@ -7,12 +7,12 @@
 calculate(weight_kg, height_m)
 }
 \arguments{
-\item{weight_kg}{Weight in kilograms.}
+\item{weight_kg}{Numeric. Weight in kilograms.}
 
-\item{height_m}{Height in meters.}
+\item{height_m}{Numeric. Height in meters.}
 }
 \value{
-The calculated BMI.
+The calculated BMI (numeric).
 }
 \description{
 This function calculates the BMI given weight in kg and height in meters.

@@ -9,13 +9,13 @@ interpret(bmi, age)
 \arguments{
 \item{bmi}{Numeric. The BMI to interpret.}
 
-\item{age}{Numeric. The age of the person which belongs to the bmi.}
+\item{age}{Numeric. The age of the person which belongs to the BMI.}
 }
 \value{
 The interpretation of the BMI as a string.
 }
 \description{
-This function provides a verbal interpretation of the BMI value.
+This function provides a verbal interpretation of a given BMI value.
 }
 \examples{
 interpret(22,20)

@@ -42,21 +42,21 @@ Requires numeric inputs and returns an interpretation of the BMI of that person.
 ```{r, eval = FALSE}
 convertInch(height_in)
 ```
-The input has to be numeric. The output is calculated with 0.0254*height_in.
+The input has to be numeric. The output is calculated with `0.0254*height_in`.
 
 ### Converting lbs to kg
 ```{r, eval = FALSE}
 convertLBS(weight_lbs)
 ```
-The input has to be numeric. The output is calculated with 0.453592*weight_lbs.
+The input has to be numeric. The output is calculated with `0.453592*weight_lbs`.
 
 ## Documentation
-There is a full documentation created with roxygen2. 
+There is a full documentation created with **roxygen2**. 
 
 ## Build
-There are some tests given (testthat).
+*There are some tests given (testthat).*
 
-To build and test this package, use
+To build the documentation and test this package, use
 ```{r, eval = FALSE}
 devtools::document()
 devtools::install()

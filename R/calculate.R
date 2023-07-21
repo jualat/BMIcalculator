@@ -2,9 +2,9 @@
 #'
 #' This function calculates the BMI given weight in kg and height in meters.
 #'
-#' @param weight_kg Weight in kilograms.
-#' @param height_m Height in meters.
-#' @return The calculated BMI.
+#' @param weight_kg Numeric. Weight in kilograms.
+#' @param height_m Numeric. Height in meters.
+#' @return The calculated BMI (numeric).
 #' @examples
 #' calculate(70, 1.75)
 #' @export

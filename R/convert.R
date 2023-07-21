@@ -1,9 +1,9 @@
 #' Convert lbs to kg
 #'
-#' This function converts weight from lbs to kg.
+#' This function converts weights from lbs to kg.
 #'
 #' @param weight_lbs Numeric. Weight in lbs.
-#' @return The weight in kilograms.
+#' @return The weight in kilograms (Numeric).
 #' @examples
 #' convertLbs(154.32)
 #' @export

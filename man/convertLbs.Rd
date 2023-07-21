@@ -10,10 +10,10 @@ convertLbs(weight_lbs)
 \item{weight_lbs}{Numeric. Weight in lbs.}
 }
 \value{
-The weight in kilograms.
+The weight in kilograms (Numeric).
 }
 \description{
-This function converts weight from lbs to kg.
+This function converts weights from lbs to kg.
 }
 \examples{
 convertLbs(154.32)
