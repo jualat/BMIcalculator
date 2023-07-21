@@ -17,5 +17,5 @@ context("Testing interpret function")
 test_that("interpret correctly interprets BMI", {
   expect_equal(interpret(22, 30), "Normal weight")
   expect_equal(interpret(30, 18), "Obese")
-  expect_equal(interpret(12, 1), "the person is too young")
+  expect_equal(interpret(12, 1), "The person is too young")
 })
