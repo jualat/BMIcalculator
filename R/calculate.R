@@ -6,7 +6,7 @@
 #' @param height_m Numeric. Height in meters.
 #' @return The calculated BMI (numeric).
 #' @examples
-#' calculate(70, 1.75)
+#' calculate(70, 1.80)
 #' @export
 calculate <- function(weight_kg, height_m) {
   if(!is.numeric(weight_kg) | !is.numeric(height_m)) {

@@ -5,7 +5,7 @@
 #' @param weight_lbs Numeric. Weight in lbs.
 #' @return The weight in kilograms (Numeric).
 #' @examples
-#' convertLbs(154.32)
+#' convertLbs(150)
 #' @export
 convertLbs <- function(weight_lbs) {
   if (!is.numeric(weight_lbs)) {
@@ -25,7 +25,7 @@ convertLbs <- function(weight_lbs) {
 #' @param height_in Numeric. Height in inches.
 #' @return The height in meters.
 #' @examples
-#' convertInch(68.11)
+#' convertInch(70)
 #' @export
 convertInch <- function(height_in) {
   if (!is.numeric(height_in)) {
