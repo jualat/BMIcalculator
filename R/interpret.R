@@ -11,8 +11,8 @@
 
 interpret <- function(bmi, age) {
 
-  if(!is.numeric(bmi)) {
-    stop("BMI must be numeric.")
+  if(!is.numeric(bmi) | !is.numeric(age)) {
+    stop("Both bmi and age must be numeric.")
   }
 
   if(age >= 18) {
@@ -26,7 +26,7 @@ interpret <- function(bmi, age) {
       interpretation <- "Obese"
     }
   } else {
-    interpretation <- "the person is too young"
+    interpretation <- "The person is too young"
   }
 
   return(interpretation)
