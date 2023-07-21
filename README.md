@@ -24,7 +24,7 @@ calculate(weight_kg, height_m)
 
 Requires numeric inputs and returns the BMI of the person. The weight
 has to be given in kilograms and the height in meters (not centimeters).
-If it’s necessary to convert these values, use `convertIch(height_in)`
+If it’s necessary to convert these values, use `convertInch(height_in)`
 or `convertLBS`.
 
 ### Interpreting the BMI
